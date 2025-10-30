@@ -1,0 +1,14 @@
+/* Membuat font tabel lebih kecil */
+table {
+    font-size: 0.85rem; /* default biasanya 1rem */
+}
+
+/* Membuat tabel lebih lebar (full width container) */
+.filament-table {
+    width: 100%; /* pastikan memanfaatkan lebar layar */
+}
+
+/* Opsional: scroll horizontal kalau banyak kolom */
+.filament-tables-table-wrapper {
+    overflow-x: auto;
+}
