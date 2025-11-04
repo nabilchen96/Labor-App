@@ -29,3 +29,13 @@ Route::get('/statistik-instruktur-peminjaman', 'App\Http\Controllers\StatistikPe
 Route::get('/statistik-penggunaan-alat', 'App\Http\Controllers\StatistikPenggunaanAlatController@penggunaanAlat')->name('statistik.penggunaan.alat');
 Route::get('/statistik-rata-penggunaan-alat', 'App\Http\Controllers\StatistikPenggunaanAlatController@rataAlat')->name('statistik.rata.alat');
 Route::get('/statistik-kondisi-penggunaan-alat', 'App\Http\Controllers\StatistikPenggunaanAlatController@kondisiAlat')->name('statistik.kondisi.alat');
+
+
+//PEMINJAMANLABORATORIUM
+Route::post('/store-peminjaman', 'App\Http\Controllers\PeminjamanController@store');
+
+//BUKUKUNJUNGAN
+Route::post('/store-kunjungan', 'App\Http\Controllers\BukuKunjunganController@store');
+
+//PENGGUNAANALAT
+Route::post('/store-penggunaan-alat', 'App\Http\Controllers\PenggunaanAlatController@store');
