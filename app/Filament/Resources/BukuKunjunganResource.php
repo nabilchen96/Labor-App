@@ -28,7 +28,7 @@ class BukuKunjunganResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
     
-    protected static bool $shouldRegisterNavigation = false;
+    // protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Form $form): Form
     {

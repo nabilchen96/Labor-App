@@ -28,7 +28,7 @@ class PenggunaanAlatResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-m-cog';
 
-    protected static bool $shouldRegisterNavigation = false;
+    // protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Form $form): Form
     {
