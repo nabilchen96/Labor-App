@@ -446,7 +446,7 @@
         </div>
     </div>
 
-    <div class="container" id="kunjungan">
+    {{-- <div class="container" id="kunjungan">
         <div class="text-center content-header mt-5">
             <h2>🗓️ Kunjungan</h2>
             <h6 class="section-subtitle text-muted mb-4">
@@ -454,10 +454,6 @@
             </h6>
         </div>
         <div class="row">
-            {{-- <div class="col-lg-6 mt-2">
-                <img width="100%" src="https://cdn.pixabay.com/photo/2021/11/11/12/33/balloon-6786198_1280.png"
-                    alt="">
-            </div> --}}
             <div class="col-lg-12 mt-2 mb-5">
 
                 <nav>
@@ -475,7 +471,6 @@
                         aria-labelledby="nav-home-tab">
                         <div class="card border mt-2">
                             <div class="card-body p-4">
-                                {{-- BUKU TAMU / ABSENSI  --}}
                                 <form id="formPengunjung">
                                     @csrf
                                     <div class="row">
@@ -550,7 +545,6 @@
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         <div class="card border mt-2">
                             <div class="card-body p-4">
-                                {{-- LOG PENGGUNAAN ALAT  --}}
                                 <form id="formPenggunaan">
                                     @csrf
                                     <div class="row">
@@ -653,7 +647,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div id="faq"></div>
 

@@ -27,6 +27,8 @@ class StatistikPenggunaanAlat extends Page implements HasTable
     protected static ?string $navigationGroup = 'Statistik';
     protected static ?int $navigationSort = 2;
 
+    protected static bool $shouldRegisterNavigation = false;
+
     public function table(Table $table): Table
     {
         return $table

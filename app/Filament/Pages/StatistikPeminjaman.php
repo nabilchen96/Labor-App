@@ -11,6 +11,8 @@ class StatistikPeminjaman extends Page
     protected static ?string $navigationLabel = 'Laboratorium dan Alat';
     protected static ?string $title = 'Laboratorium dan Alat';
 
+    protected static bool $shouldRegisterNavigation = false;
+
     // Tambahkan ini untuk grup menu
     protected static ?string $navigationGroup = 'Statistik';
 

@@ -27,6 +27,8 @@ class BukuKunjunganResource extends Resource
     protected static ?string $model = BukuKunjungan::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
+    
+    protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Form $form): Form
     {
