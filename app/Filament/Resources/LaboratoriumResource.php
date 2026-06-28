@@ -31,6 +31,10 @@ class LaboratoriumResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-folder';
 
+    protected static ?string $pluralModelLabel = 'Laboratorium';
+    protected static ?string $navigationLabel = 'Laboratorium';
+    protected static ?string $modelLabel = 'Laboratorium';
+
     public static function form(Form $form): Form
     {
         return $form

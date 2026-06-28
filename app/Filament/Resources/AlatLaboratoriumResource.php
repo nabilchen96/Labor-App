@@ -27,6 +27,10 @@ class AlatLaboratoriumResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-folder';
 
+    protected static ?string $modelLabel = 'Alat Laboratorium';
+    protected static ?string $pluralModelLabel = 'Alat Laboratorium';
+    protected static ?string $navigationLabel = 'Alat Laboratorium';
+
     public static function form(Form $form): Form
     {
         return $form

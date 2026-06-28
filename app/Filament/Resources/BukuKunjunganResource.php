@@ -142,4 +142,9 @@ class BukuKunjunganResource extends Resource
     {
         return parent::getEloquentQuery()->with(['peminjaman.laboratorium']);
     }
+
+    public static function shouldRegisterNavigation(): bool
+    {
+        return false;
+    }
 }
